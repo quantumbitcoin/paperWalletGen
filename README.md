@@ -1,4 +1,11 @@
-paperWalletGen
+PaperWalletGen
 ==============
+This is a very simple Bitcoin paper wallet generator.  Use it at your own risk.
 
-Run the App file, which produces a PDF file containing a Bitcoin address and its corresponding private key.
+How to use
+==========
+You can run it using maven, like this:
+
+<pre>mvn exec:java</pre>
+
+Or just run the App class from inside your IDE
