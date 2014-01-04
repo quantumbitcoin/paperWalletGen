@@ -17,9 +17,9 @@ You can run it using maven, like this:
 </pre>
 
 Choose 1, and two PDF files will be generated, one named `paperwallet.pdf`, which is the actual paper wallet with the
-address and the private key.  The second document, `secrets.pdf`, contains a backup of the wallet divided in four parts
-(secrets).  Keep two of the part yourself, and give the rest to two people you trust.
+address and the private key.  The second document, `secrets.pdf`, contains a backup of the wallet divided into four
+parts (secrets).  Keep two parts yourself, and give the rest to two people you trust.
 
-Choose 2, to restore your wallet.  You only need three of the four parts.  Scan the QR codes to extract the
-text string inside, and paste each of them in the console.  When done, the two PDF files described above will
+Choose 2, if you ever need to restore your wallet.  You only need three of the four parts.  Scan the QR codes to extract
+the text string inside, and paste each of them in the console.  When done, the two PDF files described above will
 be created.
