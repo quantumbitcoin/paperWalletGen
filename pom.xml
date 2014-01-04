@@ -13,6 +13,10 @@
             <id>bitcoinj</id>
             <url>http://distribution.bitcoinj.googlecode.com/git/releases/</url>
         </repository>
+        <repository>
+            <id>archistar</id>
+            <url>http://sqt.ait.ac.at/archistar/repository</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -30,6 +34,11 @@
             <groupId>com.itextpdf</groupId>
             <artifactId>itextpdf</artifactId>
             <version>5.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>at.archistar</groupId>
+            <artifactId>archistar-smc</artifactId>
+            <version>0.0.2-snapshot</version>
         </dependency>
     </dependencies>
 
